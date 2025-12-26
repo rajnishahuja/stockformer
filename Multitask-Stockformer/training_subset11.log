@@ -1,0 +1,14 @@
+Model file path is ready at ./cpt/STOCK/saved_model_Multitask_2020-08-31_2023-05-05
+Traceback (most recent call last):
+  File "/home/ubuntu/rajnish/stockformer/Multitask-Stockformer/MultiTask_Stockformer_train.py", line 92, in <module>
+    os.makedirs(tensorboard_folder)
+  File "/home/ubuntu/miniconda3/envs/phi3-k8s-env/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/ubuntu/miniconda3/envs/phi3-k8s-env/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/ubuntu/miniconda3/envs/phi3-k8s-env/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  [Previous line repeated 3 more times]
+  File "/home/ubuntu/miniconda3/envs/phi3-k8s-env/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/root/autodl-tmp'

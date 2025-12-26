@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "Multitask-Stockformer"
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "/home/ubuntu/miniconda3/envs/phi3-k8s-env/bin/python",
+    "files.watcherExclude": {
+      "**/data/gdrive_folder/**": true,
+      "**/runs/**": true,
+      "**/__pycache__/**": true
+    }
+  }
+}
