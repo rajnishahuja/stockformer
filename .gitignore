@@ -1,0 +1,21 @@
+# Data (too large)
+Stock_CN_*/
+*.npz
+*.npy
+*.zip
+
+# Model outputs
+Multitask-Stockformer/cpt/
+Multitask-Stockformer/output/
+Multitask-Stockformer/log/
+Multitask-Stockformer/runs/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+*.swp
